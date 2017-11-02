@@ -1,1 +1,4 @@
-这个东西不那么简单
+安装redis服务以及java redis驱动
+首先你需要下载驱动包 下载 jedis.jar，确保下载最新驱动包；在你的 classpath 中包含该驱动包
+ Jedis jedis = new Jedis("192.168.0.100"，6379);    //连接redis服务器，192.168.0.100:6379
+参考资料：http://www.runoob.com/redis/redis-tutorial.html
